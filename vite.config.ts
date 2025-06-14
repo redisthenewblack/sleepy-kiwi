@@ -12,6 +12,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default defineConfig({
+  base: '/sleepy-kiwi/',
   plugins: [
     vue(),
     AutoImport({
