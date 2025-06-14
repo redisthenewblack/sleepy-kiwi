@@ -17,5 +17,8 @@ useHead({
 })
 </script>
 <template>
+  <header class="">
+    <h1>EVA VPN COMMON ANSWER TEMPLATES</h1>
+  </header>
   <router-view />
 </template>
